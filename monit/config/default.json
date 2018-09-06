@@ -1,0 +1,21 @@
+{
+	"microservice": {
+		"config": {
+			"services": [
+				{ 
+					"ping": "api url",
+					"env" : "dev"
+					
+				},
+				{ 
+					"ping": "api url",
+					"env" : "qa"
+				},
+				{ 
+					"ping": "api url",
+					"env" : "uat"
+				}						
+			]
+		}
+	}
+}

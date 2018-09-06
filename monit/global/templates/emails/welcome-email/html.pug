@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+	head
+		meta(http-equiv='Content-Type' content='text/html; charset=UTF-8')
+		meta(name='viewport' content='width=device-width')
+		title Welcome user
+		link(rel='stylesheet' href='style.css' media="all")
+
+	body(itemscope itemtype="http://schema.org/EmailMessage")
+
+		table.body-wrap
+			tr
+				td
+				td.container(width="100")
+
+					.content
+
+						table.main(width="100%" cellpadding="0" cellspacing="0")
+							tr
+								td.alert.alert-warning.
+									Service status
+							tr
+								td.content-wrap
+									table(width="100%" cellpadding="0" cellspacing="0")
+										tr
+											td.content-block.logo-image
+												h2 Alert !! #{message},
+												
+										tr
+											td.content-block.logo-image
+												a.btn-primary(href= ping) test service
+						div.footer
+							table(width="100%")
+								tr
+									td.aligncenter.content-block.
+										&copy; 2018
